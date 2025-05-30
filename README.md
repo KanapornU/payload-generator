@@ -1,5 +1,3 @@
-![demo](https://github.com/user-attachments/assets/ea194681-c493-44af-bf92-0f22ee6d73e3)
-
 # payload-generator
 A simple payload generator for learning web vulnerabilities (e.g. XSS). Intended for ethical hacking and educational use only.
 
@@ -27,7 +25,8 @@ payload-generator/
 - .gitignore
 - LICENSE
 - README.md
-- demo.png                # Sample output image
+
+![demo](https://github.com/user-attachments/assets/ea194681-c493-44af-bf92-0f22ee6d73e3)
 
 ---
 
