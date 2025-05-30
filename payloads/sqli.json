@@ -1,6 +1,0 @@
-[
-  "' OR '1'='1' --", 
-  "' UNION SELECT NULL,NULL --",
-  "' AND SLEEP(5) --",
-  "' OR 1=1#"
-]
