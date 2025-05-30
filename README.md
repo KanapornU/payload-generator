@@ -18,10 +18,10 @@ This repository contains a simple **Payload Generator** tool designed for educat
 payload-generator/
 - payload_gen.py          # main script
 - payloads/
-      - xss.json          # Collection of XSS payload templates
-      - sqli.json         # Collection of SQLi templates
+  - xss.json          # Collection of XSS payload templates
+  - sqli.json         # Collection of SQLi templates
 - utils/
-      - encoder.py        # Functions for encoding
+  - encoder.py        # Functions for encoding
 - .gitignore
 - LICENSE
 - README.md
