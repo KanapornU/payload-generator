@@ -26,8 +26,6 @@ payload-generator/
 - LICENSE
 - README.md
 
-![demo](https://github.com/user-attachments/assets/ea194681-c493-44af-bf92-0f22ee6d73e3)
-
 ---
 
 # Features
@@ -44,6 +42,8 @@ payload-generator/
 - Save output to `output.txt` (optional via `--store`)
 - Easy to extend by adding new payload types via JSON
 - Beginner-friendly structure for security learners
+
+![demo](https://github.com/user-attachments/assets/ea194681-c493-44af-bf92-0f22ee6d73e3)
 
 # Requirements
 
