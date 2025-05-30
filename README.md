@@ -1,3 +1,5 @@
+![demo](https://github.com/user-attachments/assets/ea194681-c493-44af-bf92-0f22ee6d73e3)
+
 # payload-generator
 A simple payload generator for learning web vulnerabilities (e.g. XSS). Intended for ethical hacking and educational use only.
 
@@ -32,10 +34,17 @@ payload-generator/
 # Features
 
 - Generate payloads for:
-  - Reflected XSS
+  - Cross-Site Scripting (XSS)
   - SQL Injection (SQLi)
-- Basic web interface using Flask
-- Easy to extend for more payload types
+- Randomly select up to **10 payloads per run**
+- Encode payloads using:
+  - Base64
+  - URL encoding
+  - Hex encoding
+  - Or choose `--encode none` to skip encoding
+- Save output to `output.txt` (optional via `--store`)
+- Easy to extend by adding new payload types via JSON
+- Beginner-friendly structure for security learners
 
 # Requirements
 
