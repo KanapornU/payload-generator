@@ -16,7 +16,7 @@ This repository contains a simple **Payload Generator** tool designed for educat
 # Folder Structure
 
 payload-generator/
-- payload_gen.py          # main script
+- payload_gen.py      # main script
 - payloads/
   - xss.json          # Collection of XSS payload templates
   - sqli.json         # Collection of SQLi templates
